@@ -3,7 +3,7 @@ import Stripe from "stripe";
 
 // Initialize Stripe with your secret key
 // In production, use environment variable: process.env.STRIPE_SECRET_KEY
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || "sk_test_placeholder");
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || "sk_test_51T7pagKlMMwpVp2DCyDVW6KnVdkvGLpBikpKYFER4pr0LIorzFEy5UMmBEQ0dZY6lqD0f77UIA6VuAcse970uYxk00gzqIHKaK");
 
 export async function POST(request: Request) {
   try {
